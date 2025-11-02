@@ -17,3 +17,8 @@ export async function getFlightByNumber(flightNumber) {
     throw error;
   }
 }
+
+// Default export for compatibility with test runners or consumers that
+// import the module as a namespace/default. This provides
+// `aviation.getFlightByNumber` when the module is imported as `* as aviation`.
+export default { getFlightByNumber };
