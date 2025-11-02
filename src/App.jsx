@@ -1,10 +1,9 @@
-import FlightList from "./components/FlightList";
+import FlightTracker from "./components/FlightTracker";
 
 function App() {
   return (
     <div>
-      <h1>🛫 Flight Tracker</h1>
-      <FlightList />
+      <FlightTracker />
     </div>
   );
 }
